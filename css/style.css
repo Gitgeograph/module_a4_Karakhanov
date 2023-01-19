@@ -838,6 +838,9 @@ body {
 	.intro_content {
 		flex-wrap: nowrap;
 	}
+	.people {
+		flex-wrap: nowrap;
+	}
 	.intro-wrapper {
 		width: 50%;
 		box-sizing: border-box;
