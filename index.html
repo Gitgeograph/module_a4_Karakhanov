@@ -158,8 +158,8 @@
 						Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
 					</p>
 				</div>
-				<form class="form_mail" action="" method="GET">
-					<input class="mail_input" type="Email" placeholder="Email Address...">
+				<form class="form_mail" action="/mail" method="GET">
+					<input class="mail_input" type="Email" name="mail" required placeholder="Email Address...">
 					<button class="subscribe" type="submit">Subscribe</button>
 				</form>
 			</div>
@@ -174,10 +174,10 @@
 					</p>
 					<hr class="message-line">
 					<div class="message-contact">
-						<form class="form" action="" method="GET">
-							<input class="form-name" type="text" placeholder="Name">
-							<input class="form-mail" type="Email" placeholder="Your Mail"> 
-							<input class="form-message" type="text" placeholder="Type your message">
+						<form class="form" action="/message" method="GET">
+							<input class="form-name" type="text" name="name" required placeholder="Name">
+							<input class="form-mail" type="Email" name="mail" required placeholder="Your Mail"> 
+							<input class="form-message" type="text" name="message" required placeholder="Type your message">
 							<button class="sendmes" type="submit">Send message</button>
 						</form>
 					</div>
